@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<head>
+    <title>ChaloChalein</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel = "stylesheet" href = "style.css">
+</head>
+<body>
+    <div class = "container1">
+        <nav>
+            <div class="logo">
+                <a href = "home.html"><img src="Images/ChaloLogoMain.png" alt="ChaloChalein Logo" height="100px"></a>
+            </div>
+            <ul>
+                <li><a href = "home.html">Home</a></li>
+                <li><a href = "trip.html">Plan a Trip</a></li>
+                <li><a href = "#">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class = "container2">
+        <h3>Choose Your Travel Destination</h3>
+        <form>
+            <!-- <label for = "states">States</label>
+            <select name = "states" id = "states">
+                <option value="">Select States</option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                <option value="Assam">Assam</option>
+                <option value="Bihar">Bihar</option>
+                <option value="Chhattisgarh">Chhattisgarh</option>
+                <option value="Goa">Goa</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Himachal Pradesh">Himachal Pradesh</option>
+                <option value="Jharkhand">Jharkhand</option>
+                <option value="Karnataka">Karnataka</option>
+                <option value="Kerala">Kerala</option>
+                <option value="Madhya Pradesh">Madhya Pradesh</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Manipur">Manipur</option>
+                <option value="Meghalaya">Meghalaya</option>
+                <option value="Mizoram">Mizoram</option>
+                <option value="Nagaland">Nagaland</option>
+                <option value="Odisha">Odisha</option>
+                <option value="Punjab">Punjab</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Sikkim">Sikkim</option>
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="Telangana">Telangana</option>
+                <option value="Tripura">Tripura</option>
+                <option value="Uttar Pradesh">Uttar Pradesh</option>
+                <option value="Uttarakhand">Uttarakhand</option>
+                <option value="West Bengal">West Bengal</option>
+            </select><br>
+
+            <label for = "FamousSpots">Famous Spots</label>
+                <select name = "FamousSpots" id = "FamousSpots">
+                <option value="">Select Famous Spot</option>
+                <option value="Tirupati Balaji Temple (Tirumala)">Tirupati Balaji Temple (Tirumala)</option>
+                <option value="Tawang Monastery">Tawang Monastery</option>
+                <option value="Kaziranga National Park">Kaziranga National Park</option>
+                <option value="Mahabodhi Temple (Bodh Gaya)">Mahabodhi Temple (Bodh Gaya)</option>
+                <option value="Chitrakote Waterfalls">Chitrakote Waterfalls</option>
+                <option value="Baga Beach">Baga Beach</option>
+                <option value="Gir National Park">Gir National Park</option>
+                <option value="Sultanpur Bird Sanctuary">Sultanpur Bird Sanctuary</option>
+                <option value="Rohtang Pass">Rohtang Pass</option>
+                <option value="Dassam Falls">Dassam Falls</option>
+                <option value="Mysore Palace">Mysore Palace</option>
+                <option value="Alleppey Backwaters">Alleppey Backwaters</option>
+                <option value="Khajuraho Temples">Khajuraho Temples</option>
+                <option value="Ajanta & Ellora Caves">Ajanta & Ellora Caves</option>
+                <option value="Loktak Lake">Loktak Lake</option>
+                <option value="Living Root Bridges">Living Root Bridges</option>
+                <option value="Phawngpui">Phawngpui</option>
+                <option value="Kohima War">Kohima War</option>
+                <option value="Konark Sun Temple">Konark Sun Temple</option>
+                <option value="Golden Temple">Golden Temple</option>
+                <option value="Amber Fort">Amber Fort</option>
+                <option value="Tsomgo Lake">Tsomgo Lake</option>
+                <option value="Meenakshi Amman Temple">Meenakshi Amman Temple</option>
+                <option value="Charminar">Charminar</option>
+                <option value="Ujjayanta Palace">Ujjayanta Palace</option>
+                <option value="Taj Mahal (Agra)">Taj Mahal (Agra)</option>
+                <option value="Kedarnath Temple">Kedarnath Temple</option>
+                <option value="Sundarbans Mangrove Forest">Sundarbans Mangrove Forest</option>
+                </select> <br> -->
+
+                <label for="States">States & Their Famous Spot</label>
+                <select name="States" id="States">
+                    <option value="">Select Your Spot</option>
+
+                    <optgroup label="Andhra Pradesh">
+                        <option value="5650">Tirupati Balaji Temple - ₹5650</option>
+                    </optgroup>
+
+                    <optgroup label="Arunachal Pradesh">
+                        <option value="10500">Tawang Monastery - ₹10500</option>
+                    </optgroup>
+
+                    <optgroup label="Assam">
+                        <option value="9000">Kaziranga National Park - ₹9000</option>
+                    </optgroup>
+
+                    <optgroup label="Bihar">
+                        <option value="6750">Mahabodhi Temple (Bodh Gaya) - ₹6750</option>
+                    </optgroup>
+
+                    <optgroup label="Chhattisgarh">
+                        <option value="6250">Chitrakote Waterfalls - ₹6250</option>
+                    </optgroup>
+
+                    <optgroup label="Goa">
+                        <option value="4500">Baga Beach - ₹4500</option>
+                    </optgroup>
+
+                    <optgroup label="Gujarat">
+                        <option value="6000">Gir National Park - ₹6000</option>
+                    </optgroup>
+
+                    <optgroup label="Haryana">
+                        <option value="5750">Sultanpur Bird Sanctuary - ₹5750</option>
+                    </optgroup>
+
+                    <optgroup label="Himachal Pradesh">
+                        <option value="7000">Rohtang Pass - ₹7000</option>
+                    </optgroup>
+
+                    <optgroup label="Jharkhand">
+                        <option value="6750">Dassam Falls - ₹6750</option>
+                    </optgroup>
+
+                    <optgroup label="Karnataka">
+                        <option value="5250">Mysore Palace - ₹5250</option>
+                    </optgroup>
+
+                    <optgroup label="Kerala">
+                        <option value="5250">Alleppey Backwaters - ₹5250</option>
+                    </optgroup>
+
+                    <optgroup label="Madhya Pradesh">
+                        <option value="8250">Khajuraho Temples - ₹8250</option>
+                    </optgroup>
+
+                    <optgroup label="Maharashtra">
+                        <option value="4500">Ajanta & Ellora Caves - ₹4500</option>
+                    </optgroup>
+
+                    <optgroup label="Manipur">
+                        <option value="11000">Loktak Lake - ₹11000</option>
+                    </optgroup>
+
+                    <optgroup label="Meghalaya">
+                        <option value="11000">Living Root Bridges - ₹11000</option>
+                    </optgroup>
+
+                    <optgroup label="Mizoram">
+                        <option value="12000">Phawngpui (Blue Mountain) - ₹12000</option>
+                    </optgroup>
+
+                    <optgroup label="Nagaland">
+                        <option value="10500">Kohima War Cemetery - ₹10500</option>
+                    </optgroup>
+
+                    <optgroup label="Odisha">
+                        <option value="5750">Konark Sun Temple - ₹5750</option>
+                    </optgroup>
+
+                    <optgroup label="Punjab">
+                        <option value="5750">Golden Temple (Amritsar) - ₹5750</option>
+                    </optgroup>
+
+                    <optgroup label="Rajasthan">
+                        <option value="4500">Amber Fort (Jaipur) - ₹4500</option>
+                    </optgroup>
+
+                    <optgroup label="Sikkim">
+                        <option value="8000">Tsomgo Lake - ₹8000</option>
+                    </optgroup>
+
+                    <optgroup label="Tamil Nadu">
+                        <option value="5750">Meenakshi Amman Temple (Madurai) - ₹5750</option>
+                    </optgroup>
+
+                    <optgroup label="Telangana">
+                        <option value="4500">Charminar (Hyderabad) - ₹4500</option>
+                    </optgroup>
+
+                    <optgroup label="Tripura">
+                        <option value="10500">Ujjayanta Palace - ₹10500</option>
+                    </optgroup>
+
+                    <optgroup label="Uttar Pradesh">
+                        <option value="5750">Taj Mahal (Agra) - ₹5750</option>
+                    </optgroup>
+
+                    <optgroup label="Uttarakhand">
+                        <option value="5000">Kedarnath Temple - ₹5000</option>
+                    </optgroup>
+
+                    <optgroup label="West Bengal">
+                        <option value="5000">Sundarbans Mangrove Forest - ₹5000</option>
+                    </optgroup>
+                </select><br>
+                <button type = "submit" >Book now !</button>
+            </form>
+    </div>
+</body>
+</html>
