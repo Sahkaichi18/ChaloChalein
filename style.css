@@ -111,7 +111,7 @@ body{
 
 .container3{
     width: 40%;
-    margin : 150px 0 0 400px;
+    margin : 150px 100px 100px 400px;
     padding: 70px;
     background: #FF6B35;
     border-radius: 10px;
@@ -145,14 +145,24 @@ body{
     padding: 10px;
     margin-bottom: 1px;
     border-radius: 5px;
+    font-size: 14px;
+}
+.container3 button{
+    background: white;
+    color: black;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 90%;
+    transition: background 0.3s ease;
+}
+.container3 button:hover{
+    background: #00AEEF;
 }
 
-/* input, select{
-    width: 90%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 14px;
-} */
+
+
+
 
